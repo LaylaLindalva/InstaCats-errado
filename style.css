@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: #EB6440;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.img{
+    height: 80px;
+}
+
+
+.login{
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.resgistrar{
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.parte-2{
+    align-items: center;
+}
+
+.parte-4{
+    align-items: center;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    background-color: #EB6440;
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+
+.div-completa{
+    padding: 80px 120px;
+
+}
+
+@media screen and (max-width: 1480px) {
+    .parte-1{
+        width: 300px;
+        height: 440px;
+    }
+
+    .parte-2{
+        width: 401px;
+        height: 440px;
+    }
+}
